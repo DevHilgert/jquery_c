@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#carousel-images {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #119759;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #23c47a;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
