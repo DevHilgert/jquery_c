@@ -1,54 +1,64 @@
-
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    max-width: 960px;
-    width: 100%;
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
-#carousel-images {
-    width: 100%;
-    margin-bottom: 24px;
-}
-
-.form-campo {
+h2 {
+    text-align: center;
     margin-bottom: 16px;
 }
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-campo {
+    margin-bottom: 20px;
+}
+
 .form-campo label {
-    font-weight: bold;
     display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .form-campo input {
     width: 100%;
-    display: block;
-    padding: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-form button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: #119759;
-    color: #fff;
+.container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
 }
-
-form button:hover {
-    background-color: #23c47a;
-}
-
 
 .error {
-    color: red;
-    font-size: 12px;
-    margin-top: 5px;
+    color: red
 }

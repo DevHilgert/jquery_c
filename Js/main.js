@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     // 1. Inicialização do Carrossel (Slick Carousel)
-    $('#carousel-images').slick({
+    $('#assets').slick({
         autoplay: true, // Faz o carrossel rodar sozinho
         dots: true,     // Adiciona os pontinhos de navegação
         arrows: false   // Remove as setas laterais para um visual mais limpo
